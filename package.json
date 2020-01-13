@@ -1,0 +1,22 @@
+{
+  "name": "node10-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-lambda": "^2.9.16",
+    "graphql": "^14.1.1",
+    "promise-mysql": "^3.3.1",
+    "serverless-scaleway-functions": "^0.1.13"
+  },
+  "devDependencies": {
+    "tslint": "^5.13.0",
+    "typescript": "^3.3.3333"
+  }
+}
