@@ -17,9 +17,9 @@ const typeDefs = gql`
 
   type Query {
     dogs: [Dog]!
-    dog: Dog!
+    dog(id: Int!): Dog!
     owners: [Owner]!
-    owner: Owner!
+    owner(id: Int!): Owner!
   }
 
   type Mutation {
