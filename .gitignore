@@ -1,5 +1,5 @@
-node_modules
-.serverless
-dogs
-demo
-credentials
+node_modules/
+.serverless/
+dogs/
+demo/
+credentials/
