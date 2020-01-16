@@ -12,6 +12,10 @@ COPY tsconfig.json .
 
 COPY src ./src
 
+
+
+
+
 RUN ncc build -o build ./src/dogs/container.ts
 
 FROM node:13.6.0-alpine

@@ -4,8 +4,17 @@ service:
 provider:
   name: scaleway
   runtime: node10
-  # scwToken:
-  # scwOrganization: 
+
+custom:
+  containers:
+    apollo-container:
+      directory: .
+      env:
+        DB_HOST: 
+        DB_USER: 
+        DB_PASSWORD:
+        DB_NAME:
+
 
 plugins:
   - serverless-scaleway-functions
@@ -13,6 +22,7 @@ plugins:
 package:
   include:
     - dogs
+    - demo
 
 functions:
   demo:
@@ -22,7 +32,6 @@ functions:
     handler: dogs/index.handler
     env:
       DB_HOST: 
-      DB_USER: 
-      DB_PASSWORD: 
+      DB_USER:
+      DB_PASSWORD:
       DB_NAME: 
-
