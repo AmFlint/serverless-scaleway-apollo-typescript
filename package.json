@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^2.9.16",
-    "apollo-server-lambda": "^2.9.16",
+    "apollo-server-lambda": "^2.14.2",
     "graphql": "^14.1.1",
     "promise-mysql": "^3.3.1",
     "serverless-scaleway-functions": "^0.1.13"
